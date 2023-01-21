@@ -21,13 +21,12 @@ The code uses the "fake-news" dataset from Kaggle competition (https://www.kaggl
 The code uses the "train.csv" and "test.csv" files from the dataset for training and testing the model.
 
 ## Code Structure
-The code starts by loading the necessary libraries and setting up the environment. It then uses the kaggle library to download the "fake-news" dataset from Kaggle. The "train.csv" and "test.csv" files from the dataset are unzipped and used for training and testing the model.
 
-The code then performs data cleaning and preprocessing on the dataset. It uses Natural Language Processing (NLP) techniques to convert the text data into numerical form which can be used by machine learning algorithms.
-
-The code then uses various machine learning algorithms like Logistic Regression, Random Forest, and Support Vector Machine (SVM) to train and test the model.
-
-Finally, the code evaluates the performance of the model and gives the accuracy score.
+1. Load necessary libraries and set up the environment.
+2. Use the kaggle library to download the "fake-news" dataset from Kaggle.
+3. Perform data cleaning and preprocessing on the dataset using NLP techniques to convert the text data into numerical form.
+4. Use machine learning algorithms such as Logistic Regression, Random Forest, and Support Vector Machine (SVM) to train and test the model.
+5. Evaluate the performance of the model and give the accuracy score.
 
 ## Conclusion
 This code provides a solution for classifying fake news using machine learning algorithms with the help of Natural Language Processing (NLP). The code uses the "fake-news" dataset from Kaggle competition for training and testing the model. It uses various machine learning algorithms and NLP techniques to classify the fake news. With the help of this code, we can easily identify the fake news and can take necessary steps to stop the spread of false information.
